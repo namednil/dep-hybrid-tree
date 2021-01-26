@@ -54,11 +54,13 @@
   			<artifactId>jna</artifactId>
   			<version>4.4.0</version>
   		</dependency>
+                 <!--
   		<dependency>
   			<groupId>th4j-core</groupId>
   			<artifactId>th4j-core_2.11</artifactId>
   			<version>0.1</version>
   		</dependency>
+                        -->
 
         <!-- Visualization Packages -->
 		<dependency>
