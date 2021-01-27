@@ -24,7 +24,7 @@ You can obtain the jar file `dht-1.0.jar` under `target` directory to run the ex
 ##### Feature-based model
 We compiled a jar file (including all the required external library in Maven) `dht-1.0.jar`.
 ```bash
-java -cp target/dht-1.0.jar org.statnlp.example.depsemtree.DepHybridTree --thread 40 --language en
+java -Xmx200G -cp target/dht-1.0.jar org.statnlp.example.depsemtree.DepHybridTree --thread 40 --language en &> log.txt
 ```
 You should be able to obtain exactly same performance in the paper with the above command. To change another language (e.g., `th`, `de`, `el`, `zh`, `id`, `sv`, `fa`), simply replace `en` with other languages indicated in the paper. For further customized configuration settings (e.g., L2, features, etc), please check the main class and we will list the details with another README document soon. 
 
